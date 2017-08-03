@@ -1,4 +1,4 @@
 # My blog
 
-This is my blog, uses [Jekyll](http://jekyllrb.com/). I was tired of bloated, slow Wordpress that locked up all my content.
-
+This is my blog, forked from [Karpathy's blog](https://github.com/karpathy/karpathy.github.io).
+Inspired to build my own blog while visiting [Andrej Karpathy's blog about rnn](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
