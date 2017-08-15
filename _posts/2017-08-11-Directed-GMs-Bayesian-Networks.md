@@ -2,11 +2,12 @@
 layout: post
 comments: True
 title:  "Directed GMs: Bayesian Networks"
-excerpt: "Probabilistic Graphical Model (PGM) is very important in statistic and computer science.
+excerpt: "My scribe on lecture 2, CMU 10-708. Probabilistic Graphical Model (PGM) is very important in statistic and computer science.
  In this blog, I'll introduce Directed GM, with theorems and definitions."
 mathjax: true
 tags:
   - PGM
+type: learning note
 ---
 
 This page's Markdown is generated via pandoc from LaTex.

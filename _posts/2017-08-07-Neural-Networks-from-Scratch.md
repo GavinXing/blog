@@ -7,6 +7,7 @@ mathjax: true
 tags:
   - deep learning
   - natural language processing
+type: blog
 ---
 
 Hi there, I'm a junior student from Shanghai JiaoTong University(SJTU). In my sophomore year, I started to learn about machine learning with a try of using *Support Vector Machine (SVM)* to classify credit card digits, something like the [MNIST TASK](http://yann.lecun.com/exdb/mnist/). Then I joined ADAPT and began my research work on NLP.

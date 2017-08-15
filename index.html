@@ -11,6 +11,10 @@ layout: default
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <br>
         {{ post.excerpt }}
+        {% if post.type %}
+          <br>
+          Type: {{post.type}}
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
