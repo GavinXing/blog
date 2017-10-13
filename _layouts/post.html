@@ -17,6 +17,23 @@ layout: default
   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   {% endif %}
 
+  <!-- table -->
+  {% if page.table %}
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('table').DataTable({
+          'info': false,
+          'paging': false,
+          'ordering': false,
+          'searching': false
+      });
+    });
+  </script>
+  {% endif %}
+
   <!-- disqus comments -->
  {% if page.comments %}
   <div id="disqus_thread"></div>
