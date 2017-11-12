@@ -1,0 +1,18 @@
+.imgcap img {
+  border: 1px solid #999;
+  max-width: 100%;
+}
+.imgcap {
+  color: #555;
+  font-size: 14px;
+  text-align: center;
+}
+
+a.link {
+	color: #52adc8;
+	text-decoration: none;
+}
+
+a.link:hover {
+	text-decoration: underline;
+}

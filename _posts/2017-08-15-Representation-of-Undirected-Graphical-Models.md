@@ -1,12 +1,12 @@
 ---
-layout: post
-comments: True
 title:  "Representation of Undirected Graphical Model"
 excerpt: "My scribe on lecture 3, CMU 10-708. Explain why DM is not enough, and introduce UGMs."
 mathjax: true
+date: 2017-08-15
+permalink: /posts/2017/08/15/Representation-of-Undirected-Graphical-Models/
 tags:
    - PGM
-type: learning note
+   - learning note
 ---
 
 This page's Markdown is generated via pandoc from LaTex.

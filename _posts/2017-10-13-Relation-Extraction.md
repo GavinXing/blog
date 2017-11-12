@@ -1,14 +1,16 @@
 ---
-layout: post
-comments: true
 title: Relation Extraction
 excerpt: A literature review of relation extraction.
+date: 2017-10-13
+permalink: /posts/2017/10/13/Neural-Networks-from-Scratch/
 mathjax: true
 table: true
 tags:
  - natural language processing
  - machine learning
-type: blog
+ - deep learning
+redirect_from: 
+  - /2017/10/13/Neural-Networks-from-Scratch/
 ---
 
 Table of contents

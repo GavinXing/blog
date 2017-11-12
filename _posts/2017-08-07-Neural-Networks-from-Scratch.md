@@ -1,13 +1,14 @@
 ---
-layout: post
-comments: true
-title:  "Neural Networks from Scratch"
+title: 'Neural Networks from Scratch'
 excerpt: "We'll go through some basic ideas about NNs and RNNs, the intuitive and applications"
-mathjax: true
+date: 2017-08-07
+permalink: /posts/2017/08/07/Neural-Networks-from-Scratch/
 tags:
   - deep learning
   - natural language processing
-type: blog
+redirect_from: 
+  - /2017/08/07/Neural-Networks-from-Scratch/
+mathjax: true
 ---
 
 Hi there, I'm a junior student from Shanghai JiaoTong University(SJTU). In my sophomore year, I started to learn about machine learning with a try of using *Support Vector Machine (SVM)* to classify credit card digits, something like the [MNIST TASK](http://yann.lecun.com/exdb/mnist/). Then I joined ADAPT and began my research work on NLP.
