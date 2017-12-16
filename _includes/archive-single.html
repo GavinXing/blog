@@ -41,7 +41,37 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <i>
+            {% for name in post.author %}
+              {% assign index = forloop.index %}
+              
+              {% if name == 'self' %}
+                <u>{{ site.name }}</u>
+              {% else %}
+                <span>{{ name }}</span>
+              {% endif %}
+
+              {% if index != post.author.size %}
+                <span>, </span>
+              {% endif %}
+            {% endfor %}
+          </i>
+          <br/>
+          {% if post.publication_status == 'published' %}
+            <i>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </i>
+          {% elsif post.publication_status == 'submitted' %}
+            <i>Submitted to {{ post.venue }}</i>
+          {% endif %}
+          <br/>
+          {% if post.pdf %}
+            <a href="{{ post.pdf }}">[pdf]</a>
+          {% endif %}
+          {% if post.bib %}
+            <a href="{{ post.bib }}">[bib]</a>
+          {% endif %}
+          {% if post.code %}
+            <a href="{{ post.code }}">[code]</a>
+          {% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -52,13 +82,13 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl %}
+   <!--  {% if post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
-    {% endif %}
+    {% endif %} -->
 
   </article>
 </div>

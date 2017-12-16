@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Gavin Junjie Xing"
 title_separator          : "-"
-name                     : &name ""
+name                     : &name "Junjie Xing"
 description              : &description "My name is Junjie Xing, you can call me Gavin."
 url                      : http://xingjunjie.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
