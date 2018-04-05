@@ -45,7 +45,7 @@ On 10/11/2017, I attended a seminar hosted at [ADAPT](https://adapt.seiee.sjtu.e
 The purpose of RE is to solve the problem of **machine reading**. After constructing structured data, which machine can utilize, from unstructured text, the machine can *"understand" the text*.
 
 <div class="imgcap">
-  <img src="/assets/re/machine-reading.png" style="border:none;">
+  <img src="{{ site.baseurl }}/assets/re/machine-reading.png" style="border:none;">
   <div class="thecap">
     Figure 1: Machine Reading
   </div>
@@ -163,7 +163,7 @@ When you have **a lot of unlabeled data** (E.g. from the Internet) and some **se
 Bootstrapping can be considered as a semi-supervised approach. Image below is a clear representation.
 
 <div class="imgcap">
-  <img src="/assets/re/bootstrapping.png" style="border:none;" width="75%">
+  <img src="{{ site.baseurl }}/assets/re/bootstrapping.png" style="border:none;" width="75%">
   <div class="thecap">
     Figure 2: Bootstrapping. Image credit: Jim Martin
   </div>
@@ -293,7 +293,7 @@ The multi-instance learning assumes that one bag of instances only has one relat
 In 2012, [Surdeanu et al.](https://dl.acm.org/citation.cfm?id=2391003)[9]proposed a MIML method to solve the shortcoming.
 
 <div class="imgcap">
-  <img src="/assets/re/MIML.png" style="border:none;" width="50%">
+  <img src="{{ site.baseurl }}/assets/re/MIML.png" style="border:none;" width="50%">
   <div class="thecap">
     Figure 3: MIML model plate diagram. Image credit: <a href="https://dl.acm.org/citation.cfm?id=2391003">Surdeanu et al.</a>[9]
   </div>
@@ -312,7 +312,7 @@ Recently another approach is proposed, treating RE as a **sequence tagging** pro
 ### Simple NN model
 
 <div class="imgcap">
-  <img src="/assets/re/simple-nn.png" style="border:none;" width="60%">
+  <img src="{{ site.baseurl }}/assets/re/simple-nn.png" style="border:none;" width="60%">
   <div class="thecap">
     Figure 4: Simple NN architecture. Image credit: <a href="http://www.aclweb.org/anthology/C14-1220">Zeng et al.</a>[4]
   </div>
@@ -330,7 +330,7 @@ As you can see in *Figure 5*, [Zeng et al.](http://www.aclweb.org/anthology/C14-
 Note that in the first layer, the **WF** stands for *Word Feature* (word embedding), and the **PF** stands for *Position Feature* which encodes the word's distance to the entities.
 
 <div class="imgcap">
-  <img src="/assets/re/cnn-with-maxpooling.png" style="border:none;" width="60%">
+  <img src="{{ site.baseurl }}/assets/re/cnn-with-maxpooling.png" style="border:none;" width="60%">
   <div class="thecap">
     Figure 5: Sentence-level Feature Extraction. Image credit: <a href="http://www.aclweb.org/anthology/C14-1220">Zeng et al.</a>[4]
   </div>
@@ -342,7 +342,7 @@ Note that in the first layer, the **WF** stands for *Word Feature* (word embeddi
 In 2015, [Nguyen et al.](https://pdfs.semanticscholar.org/eb9f/b8385c5824b029633c0cb68a8fb8573380ad.pdf)[6] proposed to use multi-sized kernels to encode the sentence-level information with *n-gram* information. It is intuitive that different size of kernels are able to encode different **n-gram information**.
 
 <div class="imgcap">
-  <img src="/assets/re/multi-kernel.png" style="border:none;" width="80%">
+  <img src="{{ site.baseurl }}/assets/re/multi-kernel.png" style="border:none;" width="80%">
   <div class="thecap">
     Figure 6: CNN with multi-sized kernels. Image credit: <a href="https://pdfs.semanticscholar.org/eb9f/b8385c5824b029633c0cb68a8fb8573380ad.pdf">Nguyen et al.</a>[6]
   </div>
@@ -370,7 +370,7 @@ From the equation we can find that [Zeng et al.](http://www.emnlp2015.org/procee
 Another contribution in [Zeng et al.](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf)[8] is the **piecewise CNN (PCNN)**. As report in the paper, the author claims that the max-pooling layer drastically reduces the size of the hidden layer and is also **not sufficient to capture the structure** between the entities in the sentence. This can be avoided by **applying max-pooling in different segments of the sentence** instead of the whole sentence. In RE task, a sentence can be naturally divided into 3 segments, before first entity, between 2 entities and after the second entity.
 
 <div class="imgcap">
-  <img src="/assets/re/pcnn.png" style="border:none;" width="80%">
+  <img src="{{ site.baseurl }}/assets/re/pcnn.png" style="border:none;" width="80%">
   <div class="thecap">
     Figure 7: Piecewise CNN (PCNN). Image credit: <a href="http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf">Zeng et al.</a>[8]
   </div>
@@ -382,7 +382,7 @@ Another contribution in [Zeng et al.](http://www.emnlp2015.org/proceedings/EMNLP
 The shortcoming of [Zeng et al.](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf)[8] is that it only uses that most confident instance from the bag. To overcome it, [Lin et al.](http://thunlp.org/~lyk/publications/acl2016_nre.pdf)[10] applies **attention mechanism** over all the instances in the bag for the multi-instance problem.
 
 <div class="imgcap">
-  <img src="/assets/re/attention.png" style="border:none;" width="50%">
+  <img src="{{ site.baseurl }}/assets/re/attention.png" style="border:none;" width="50%">
   <div class="thecap">
     Figure 8:  Sentence-level
 attention-based CNN. Image credit: <a href="http://thunlp.org/~lyk/publications/acl2016_nre.pdf">Lin et al.</a>[10]
@@ -403,7 +403,7 @@ Note that the **attention parameter** $$\alpha_j$$ is officially defined in [Lin
 Like the MIML model proposed [Surdeanu et al.](https://dl.acm.org/citation.cfm?id=2391003)[9], [Jiang et al.](http://www.aclweb.org/anthology/C/C16/C16-1139.pdf)[11] proposed a MIML approach with CNN architecture, named MIMLCNN.
 
 <div class="imgcap">
-  <img src="/assets/re/mimlcnn.png" style="border:none;">
+  <img src="{{ site.baseurl }}/assets/re/mimlcnn.png" style="border:none;">
   <div class="thecap">
     Figure 9:  Overall architecture of MIMLCNN. Image credit: <a href="http://thunlp.org/~lyk/publications/acl2016_nre.pdf">Jiang et al.</a>[11]
   </div>
@@ -419,7 +419,7 @@ In many situation, the performance of **pre-trained NER** will influence the dow
 In [Katiyar et al.](http://www.aclweb.org/anthology/P17-1085)[12], the joint extraction is accomplished **in two steps**, first NER, then RE. As shwon in *Figure 10*.
 
 <div class="imgcap">
-  <img src="/assets/re/joint-1.png" style="border:none;">
+  <img src="{{ site.baseurl }}/assets/re/joint-1.png" style="border:none;">
   <div class="thecap">
     Figure 10:  Model architecture of <a href="http://www.aclweb.org/anthology/P17-1085">Katiyar et al.</a>[12]
   </div>
@@ -428,14 +428,14 @@ In [Katiyar et al.](http://www.aclweb.org/anthology/P17-1085)[12], the joint ext
 In [Zheng et al.](https://arxiv.org/pdf/1706.05075.pdf)[13], the author proposed a novel tagging scheme to extract named entities and relations **in one step**. As shown in *Figure 11*, with the new annotating scheme, the joint extraction problem can be treated as a simple sequence tagging problem.
 
 <div class="imgcap">
-  <img src="/assets/re/joint-tag.png" style="border:none;">
+  <img src="{{ site.baseurl }}/assets/re/joint-tag.png" style="border:none;">
   <div class="thecap">
     Figure 11:  Novel tagging scheme. Image credit <a href="ttps://arxiv.org/pdf/1706.05075.pdf">Zheng et al.</a>[13]
   </div>
 </div>
 
 <div class="imgcap">
-  <img src="/assets/re/joint-2.png" style="border:none;">
+  <img src="{{ site.baseurl }}/assets/re/joint-2.png" style="border:none;">
   <div class="thecap">
     Figure 12:  Bi-LSTM model for sequence tagging. Image credit <a href="ttps://arxiv.org/pdf/1706.05075.pdf">Zheng et al.</a>[13]
   </div>

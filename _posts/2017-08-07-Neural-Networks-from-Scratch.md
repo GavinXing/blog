@@ -28,7 +28,7 @@ At the first glance of the Neural Networks architecture, I wonder how it works s
 Let's turn to how our brain works to get an intuitive idea.
 
 <div class="imgcap">
-  <img src="/assets/rnn/neuron.png" style="border:none;">
+  <img src="{{ site.baseurl }}/assets/rnn/neuron.png" style="border:none;">
   <div class="thecap">
     A brain neuron and its main components. Image credit: <a href="https://www.quora.com/What-is-an-intuitive-explanation-for-neural-networks">Quora</a>
   </div>
@@ -45,7 +45,7 @@ Let's recap what we can learn from last section:
 
 Here I'll introduce a vanilla Neural Networks Model, with a vector of length 8 as input, a hidden layer of 4 neurons, and a vector of length 3 as out put, the NN model can be trained as a image classifier for 3 tags.
 <div class="imgcap">
-  <img src="/assets/rnn/vanilla-nn-activated.png" style="border:none;">
+  <img src="{{ site.baseurl }}/assets/rnn/vanilla-nn-activated.png" style="border:none;">
   <div class="thecap">
     Vanilla Neural Network architecture, with one hidden layer
   </div>
@@ -213,7 +213,7 @@ As shown in the diagram, CBOW takes context word as input and predicts the targe
 It's time to dive deep into the skip-gram model. The diagram below is a clear representation from CS224n.
 
 <div class="imgcap">
-  <img src="/assets/rnn/skip-gram.png" style="border:none">
+  <img src="{{ site.baseurl }}/assets/rnn/skip-gram.png" style="border:none">
   <div class="thecap">
     Skiip-Gram model
   </div>

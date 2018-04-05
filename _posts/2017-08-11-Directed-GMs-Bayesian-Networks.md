@@ -10,8 +10,8 @@ permalink: /posts/2017/08/11/Directed-GMs-Bayesian-Networks/
 ---
 
 This page's Markdown is generated via pandoc from LaTex.
-If you feel more comfortable with a LaTex layout, please check [here](/assets/pgm/lecture2/lecture2.pdf).
-The original Tex file is also available <a href="/assets/pgm/lecture2/lecture2.tex">here</a>.
+If you feel more comfortable with a LaTex layout, please check [here]({{ site.baseurl }}/assets/pgm/lecture2/lecture2.pdf).
+The original Tex file is also available <a href="{{ site.baseurl }}/assets/pgm/lecture2/lecture2.tex">here</a>.
 
 
 
@@ -83,7 +83,7 @@ formal sense of word, and they are often only approximations of our true
 beliefs.
 
 <div class="imgcap">
-  <img src="/assets/pgm/lecture2/assets/student_nb.png" style="border:none;">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture2{{ site.baseurl }}/assets/student_nb.png" style="border:none;">
   <div class="thecap">
     Figure 1: Simple Bayesian networks for the student
   </div>
@@ -160,7 +160,7 @@ can be factorized and represented as follows: $$$$\begin{split}
 \end{split}$$$$
 
 <div class="imgcap">
-  <img src="/assets/pgm/lecture2//assets/factorize_example.png" style="border:none;width:60%;">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture2/{{ site.baseurl }}/assets/factorize_example.png" style="border:none;width:60%;">
   <div class="thecap">
     Figure 2: Factorize example
   </div>
@@ -211,7 +211,7 @@ $$G$$ asserts must also hold in $$P$$, but conversely, $$P$$ may have
 additional independences that are not reflected in $$G$$.
 
 <div class="imgcap">
-  <img src="/assets/pgm/lecture2//assets/imap_example.png" style="border:none;">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture2/{{ site.baseurl }}/assets/imap_example.png" style="border:none;">
   <div class="thecap">
     Figure 3: I-map example
   </div>
@@ -230,7 +230,7 @@ $$(X \perp Y )$$. The latter two encode no independence assumptions.
 Consider following two distributions:
 
 <div class="imgcap">
-  <img src="/assets/pgm/lecture2/assets/4-1distribution.png" style="border:none;width:50%;">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture2{{ site.baseurl }}/assets/4-1distribution.png" style="border:none;width:50%;">
   <div class="thecap">
   </div>
 </div>
@@ -269,7 +269,7 @@ words, if $$X$$ and $$Y$$ are directly connected, we can always get examples
 where they influence each other, regardless of $$Z$$.
 
 <div class="imgcap">
-  <img src="/assets/pgm/lecture2/assets/xyz_trail.png" style="border:none;">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture2{{ site.baseurl }}/assets/xyz_trail.png" style="border:none;">
   <div class="thecap">
   Figure 4: The four possible two-edge trails from X to Y via Z
   </div>
@@ -324,7 +324,7 @@ to the graph, and where $$X$$ is not independent of $$Y$$ given $$Z$$.
 Combining this with the above theorems gives us an important result.
 
 <div class="imgcap">
-  <img src="/assets/pgm/lecture2/assets/6distribution.png" style="border:none;width:30%">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture2{{ site.baseurl }}/assets/6distribution.png" style="border:none;width:30%">
 </div>
 
   Table 1: The distribution specified in this table factorizes according to the graph $$A \rightarrow B$$ but $$A$$ is independent of $$B$$.
