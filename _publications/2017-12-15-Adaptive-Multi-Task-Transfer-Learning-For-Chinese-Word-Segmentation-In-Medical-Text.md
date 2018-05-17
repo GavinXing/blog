@@ -1,12 +1,12 @@
 ---
 title: "Adaptive Multi-Task Transfer Learning for Chinese Word Segmentation in Medical Text"
 collection: publications
-publication_status: "accepted"
+publication_status: accepted
 author:
     - self
     - Kenny Q. Zhu
     - Shaodian Zhang
-permalink: /publication/2017-12-15-Adaptive-Multi-Task-Transfer-Learning-For-Chinese-Word-Segmentation-In-Medical-Text
+permalink: /publication/Adaptive-Multi-Task-Transfer-Learning-For-Chinese-Word-Segmentation-In-Medical-Text
 excerpt: ''
 date: 2017-10-01
 venue: 'COLING 2018'

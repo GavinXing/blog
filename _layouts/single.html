@@ -41,16 +41,18 @@ layout: default
             <p>Published in <i>{{ page.venue }}</i></p>
           {% elsif page.publication_status == 'submitted' %}
             <p>Submitted to {{ page.venue }}</p>
+          {% elsif page.publication_status == 'accepted' %}
+            <i>Accepted by {{ page.venue }}</i>
           {% endif %}
           <br/>
-          {% if post.pdf %}
-            <a href="{{ post.pdf }}">[pdf]</a>
+          {% if page.pdf %}
+            <a href="{{ page.pdf }}">[pdf]</a>
           {% endif %}
-          {% if post.bib %}
-            <a href="{{ post.bib }}">[bib]</a>
+          {% if page.bib %}
+            <a href="{{ page.bib }}">[bib]</a>
           {% endif %}
-          {% if post.code %}
-            <a href="{{ post.code }}">[code]</a>
+          {% if page.code %}
+            <a href="{{ page.code }}">[code]</a>
           {% endif %}
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
