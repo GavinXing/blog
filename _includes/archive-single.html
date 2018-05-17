@@ -61,6 +61,8 @@
             <i>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </i>
           {% elsif post.publication_status == 'submitted' %}
             <i>Submitted to {{ post.venue }}</i>
+          {% elsif post.publication_status == 'accepted' %}
+            <i>Accepted by {{ post.venue }}</i>
           {% endif %}
           <br/>
           {% if post.pdf %}
