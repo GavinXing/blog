@@ -50,7 +50,7 @@ A\perp C|\{B,D\}\quad B\perp D|\{A, C\}
 $$
 
 <div class="imgcap">
-  <img src="{{ site.baseurl }}/assets/pgm/lecture3{{ site.baseurl }}/assets/dgm_unable.png" style="border:none;width:80%">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture3/assets/dgm_unable.png" style="border:none;width:80%">
   <div class="thecap">
     Figure 1: Unable of Bayesian Network
   </div>
@@ -76,9 +76,9 @@ node, a go game—the grid chessboard seems intuitive, or even social
 networks, as shown in figure 2.
 
 <div class="imgcap">
-  <img src="{{ site.baseurl }}/assets/pgm/lecture3{{ site.baseurl }}/assets/ugm_ex1.png" style="border:none;width:30%">
-  <img src="{{ site.baseurl }}/assets/pgm/lecture3{{ site.baseurl }}/assets/ugm_ex2.png" style="border:none;width:30%">
-  <img src="{{ site.baseurl }}/assets/pgm/lecture3{{ site.baseurl }}/assets/ugm_ex3.png" style="border:none;width:30%">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture3/assets/ugm_ex1.png" style="border:none;width:30%">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture3/assets/ugm_ex2.png" style="border:none;width:30%">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture3/assets/ugm_ex3.png" style="border:none;width:30%">
   <div class="thecap">
     Figure 2: Example of Undirected model 
   </div>
@@ -117,7 +117,7 @@ superset $$V^{\prime\prime} \supset V'$$ is not complete.
 ### Interpretation of Clique Potentials
 
 <div class="imgcap">
-  <img src="{{ site.baseurl }}/assets/pgm/lecture3{{ site.baseurl }}/assets/clique_potential.png" style="border:none;width:35%">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture3/assets/clique_potential.png" style="border:none;width:35%">
 </div>
 
 The model implies $$X\perp Z|Y$$. This independence statement implies (by
@@ -153,7 +153,7 @@ variables, but **not as probability distributions**.
 Here we’ll use an example to show an UGM.
 
 <div class="imgcap">
-  <img src="{{ site.baseurl }}/assets/pgm/lecture3{{ site.baseurl }}/assets/ugm_max_clique.png" style="border:none;width:80%">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture3/assets/ugm_max_clique.png" style="border:none;width:80%">
 </div>
 
 We can factorize the graph into two max cliques:
@@ -175,7 +175,7 @@ We can represent $$P(X_{1:4})$$ as two 3D tables instead of one 4D table.
 In this example, the distribution factorized over the subcliques.
 
 <div class="imgcap">
-  <img src="{{ site.baseurl }}/assets/pgm/lecture3{{ site.baseurl }}/assets/ugm_sub_clique.png" style="border:none;width:40%">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture3/assets/ugm_sub_clique.png" style="border:none;width:40%">
 </div>
 
 $$
@@ -216,7 +216,7 @@ I(H)={(X\perp Y|Z) :sep_H( X :Y|Z)}
 $$
 
 <div class="imgcap">
-  <img src="{{ site.baseurl }}/assets/pgm/lecture3{{ site.baseurl }}/assets/ugm_separate.png" style="border:none;width:60%">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture3/assets/ugm_separate.png" style="border:none;width:60%">
   <div class="thecap">
     Figure 3: Illustrate separation.
   </div>
@@ -231,7 +231,7 @@ independent of C given B.
 ### Local independence
 
 <div class="imgcap">
-  <img src="{{ site.baseurl }}/assets/pgm/lecture3{{ site.baseurl }}/assets/ugm_local.png" style="border:none;width:50%">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture3/assets/ugm_local.png" style="border:none;width:50%">
   <div class="thecap">
     Figure 4: Illustration of Markov Blanket in undirected graph.
   </div>
@@ -295,7 +295,7 @@ $$
 
 
 <div class="imgcap">
-  <img src="{{ site.baseurl }}/assets/pgm/lecture3{{ site.baseurl }}/assets/ugn_pair_independence.png" style="border:none;width:50%">
+  <img src="{{ site.baseurl }}/assets/pgm/lecture3/assets/ugn_pair_independence.png" style="border:none;width:50%">
   <div class="thecap">
     Figure 5: airwise independence in undirected graph. Red nodes are observed.
   </div>
