@@ -11,11 +11,18 @@ redirect_from:
 
 Education
 ======
-* B.Eng, Shanghai Jiaotong University, 2018 (expected)
+* M.S.Eng, University of Michigan, 2020 (expected)
+  * Major in Computer Science and Engineering
+* B.Eng, Shanghai Jiaotong University, 2018
+  * Major in Information Security
 
 Research experience
 ======
-* 11/2016 - present:Big data Driven Individual Health Management of Cardiovascular 
+* 09/2018 - present: Entity Linking with sub-KnowledgeBase Information
+  * University of Michigan
+  * Supervisor: Prof. H.V. Jagadish
+
+* 11/2016 - 04/2018:Big data Driven Individual Health Management of Cardiovascular 
   * National Natural Science Foundation Project of China ; SJTU Advanced Data and Programming Technology Lab
   *   Worked as a team leader being responsible for a subproject “Cardiovascular Disease Dictionary and Disease-Symptom Relation Extraction Based on Social Data”
   * Applied disease-symptom relation extraction on the question-answer pairs between citizen and 
@@ -28,11 +35,11 @@ Research experience
 
 * 09/2015 - 05/2016: Bank Card Digits Recognition Based on Support Vector Machine 
   * Participated in the picture preprocessing (cutting, drying, edge extraction) and feature engineering to realize the identification of bank card digits through images
-   Supervisor: Prof. Fei Huan
+  * Supervisor: Prof. Fei Huan
 
 Work experience
 ======
-* 07/2017 - present: Machine Learning Engineer
+* 07/2017 - 04/2018: Machine Learning Engineer
   * Shanghai Synyi Medical Technology Co., Ltd.
   * Carried out medical knowledge extraction in medical literature (books, papers and medical records), a pipeline including Chinese word segmentation, clinical named entity recognition and relation extraction
   * Supervisor: Dr. Shaodian Zhang

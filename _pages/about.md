@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a senior student at Shanghai Jiaotong University, major in Information Security. Since the summer vacation of my sophomore year, I have been advised by [Prof. Kenny Q. Zhu](http://www.cs.sjtu.edu.cn/~kzhu/). Later, I took a research internship at [SYNYI.AI](https://www.synyi.com/), which is a medical AI start-up. I'm recently working on a UM-SJTU project, focusing on causality extraction. Generally speaking, my research interest includes Natural Language Processing, Data Mining, Knowledge Representation, etc.
+I'm a master student at University of Michigan, major in Computer Science and Engineering. I'm now working with [Prof. H.V. Jagadish](https://web.eecs.umich.edu/~jag/) at [UM DBGroup](http://dbgroup.eecs.umich.edu). Generally speaking, my research interest includes Data Management, Natural Language Processing, Data Mining, Knowledge Representation, etc.
 
-I'm admitted to Master's program in Computer Science and Engineering at the University of Michigan, Fall 2018. 
+Before my graduate study, I got my Bachelor's degree at Shanghai Jiaotong University. I worked with [Prof. Kenny Q. Zhu](http://www.cs.sjtu.edu.cn/~kzhu/) since the summer vacation of my sophomore year.
+
