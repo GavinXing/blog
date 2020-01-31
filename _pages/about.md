@@ -13,6 +13,13 @@ I'm a Master's student at University of Michigan, major in Computer Science and 
 Before my graduate study, I got my Bachelor's degree at Shanghai Jiaotong University. I worked with [Prof. Kenny Q. Zhu](http://www.cs.sjtu.edu.cn/~kzhu/) since the summer vacation of my sophomore year.
 
 
+
+{% if site.news.size > 0 %}
 News
 ====
-<i>Jan 30, 2020</i> - Received a CS Ph.D. offer from University of Wisconsin-Madison.
+  <ul>
+	{% assign sorted = (site.news | sort: 'date') | reverse | slice: 0, 10 %}
+  	{% for news in sorted %}
+    <li><i>{{ news.date | date: '%B %d, %Y' }}</i> - {{ news.text }}</li>
+  {% endfor %}</ul>
+{% endif %}

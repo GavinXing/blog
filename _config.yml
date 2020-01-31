@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Gavin Junjie Xing"
   avatar           : "profile.jpeg"
-  bio              : "A master student at University of Michigan"
+  bio              : "A Master's student at University of Michigan"
   location         : "Ann Arbor, Michigan, USA"
   employer         :
   googlescholar    : 
@@ -182,6 +182,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  news:
+    output: false
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -239,6 +242,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _news
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: talk
+      author_profile: false
+      share: false
 
 # Sass/SCSS
 sass:
