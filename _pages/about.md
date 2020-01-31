@@ -15,4 +15,4 @@ Before my graduate study, I got my Bachelor's degree at Shanghai Jiaotong Univer
 
 News
 ====
-<i>Jan 30, 2019</i> - Received a CS Ph.D. offer from University of Wisconsin-Madison.
+<i>Jan 30, 2020</i> - Received a CS Ph.D. offer from University of Wisconsin-Madison.
