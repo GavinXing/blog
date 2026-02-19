@@ -1,0 +1,12 @@
+@article{DBLP:journals/pvldb/XingWJ24,
+  author       = {Junjie Xing and
+                  Xinyu Wang and
+                  H. V. Jagadish},
+  title        = {Data-Driven Insight Synthesis for Multi-Dimensional Data},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {17},
+  number       = {5},
+  pages        = {1007--1019},
+  year         = {2024}
+}
+

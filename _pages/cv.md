@@ -11,7 +11,9 @@ redirect_from:
 
 Education
 ======
-* M.S.Eng, University of Michigan, 2020 (expected)
+* Pd.D., University of Michigan, 2025
+  * Major in Computer Science and Engineering
+* M.S.Eng, University of Michigan, 2020
   * Major in Computer Science and Engineering
 * B.Eng, Shanghai Jiaotong University, 2018
   * Major in Information Security

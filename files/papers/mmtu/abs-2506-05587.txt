@@ -1,0 +1,16 @@
+@article{DBLP:journals/corr/abs-2506-05587,
+  author       = {Junjie Xing and
+                  Yeye He and
+                  Mengyu Zhou and
+                  Haoyu Dong and
+                  Shi Han and
+                  Lingjiao Chen and
+                  Dongmei Zhang and
+                  Surajit Chaudhuri and
+                  H. V. Jagadish},
+  title        = {{MMTU:} {A} Massive Multi-Task Table Understanding and Reasoning Benchmark},
+  journal      = {CoRR},
+  volume       = {abs/2506.05587},
+  year         = {2025}
+}
+

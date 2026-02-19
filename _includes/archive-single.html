@@ -64,6 +64,9 @@
           {% elsif post.publication_status == 'accepted' %}
             <i>Accepted by {{ post.venue }}</i>
           {% endif %}
+            {% if post.remarks %}
+            . <i style="color: #d9534f;"><strong>🌟{{ post.remarks }}</strong></i>
+          {% endif %}
           <br/>
           {% if post.pdf %}
             <a target="_blank" href="{{ post.pdf }}">[pdf]</a>
