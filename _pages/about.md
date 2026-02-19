@@ -8,9 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Master's student at University of Michigan, major in Computer Science and Engineering. I'm now working with [Prof. H.V. Jagadish](https://web.eecs.umich.edu/~jag/) at [UM DBGroup](http://dbgroup.eecs.umich.edu). My ultimate goal is to help both experts and novices gain access to data more easily, process data faster, and learn from data more efficiently.
+I am a Senior Researcher in the [Data Systems Group](https://www.microsoft.com/en-us/research/group/datasystems/) at [Microsoft Research Redmond](https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/). I received my Ph.D. at University of Michigan Ann Arbor advised by [Prof. H. V. Jagadish](https://web.eecs.umich.edu/~jag/).
 
-Before my graduate study, I received my Bachelor's degree at Shanghai Jiaotong University. I worked with [Prof. Kenny Q. Zhu](http://www.cs.sjtu.edu.cn/~kzhu/) since the summer vacation of my sophomore year.
+My research interests focus on data exploration, data integration, and data preparation. I’m particularly interested in leveraging AI and large language models (LLMs) to enhance these areas.
+
+Before my graduate study, I received my Bachelor's degree at Shanghai Jiaotong University. I worked with [Prof. Kenny Q. Zhu](https://kenzhu2000.github.io/) since the summer vacation of my sophomore year.
 
 
 
@@ -18,8 +20,8 @@ Before my graduate study, I received my Bachelor's degree at Shanghai Jiaotong U
 News
 ====
   <ul>
-	{% assign sorted = (site.news | sort: 'date') | reverse | slice: 0, 10 %}
-  	{% for news in sorted %}
+  {% assign sorted = site.news | sort: 'date' | reverse %}
+    {% for news in sorted limit: 10 %}
     <li><i>{{ news.date | date: '%B %d, %Y' }}</i> - {{ news.text }}</li>
   {% endfor %}</ul>
 {% endif %}

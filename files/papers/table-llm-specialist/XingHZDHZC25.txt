@@ -1,0 +1,16 @@
+@inproceedings{DBLP:conf/emnlp/XingHZDHZC25,
+  author       = {Junjie Xing and
+                  Yeye He and
+                  Mengyu Zhou and
+                  Haoyu Dong and
+                  Shi Han and
+                  Dongmei Zhang and
+                  Surajit Chaudhuri},
+  title        = {Table-LLM-Specialist: Language Model Specialists for Tables using
+                  Iterative Fine-tuning},
+  booktitle    = {{EMNLP}},
+  pages        = {35443--35460},
+  publisher    = {Association for Computational Linguistics},
+  year         = {2025}
+}
+
